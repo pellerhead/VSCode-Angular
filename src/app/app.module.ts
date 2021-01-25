@@ -3,20 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CourseComponent } from './course/course.component';
-import { CourseService } from './course/course.service';
+import { PhoneComponent } from './phone/phone.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CourseComponent
+    PhoneComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [
-    CourseService
   ],
   bootstrap: [AppComponent]
 })
